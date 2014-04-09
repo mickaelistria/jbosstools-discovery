@@ -40,12 +40,6 @@ third party sites and execute appropriate tests as soon as
 reasonable, reporting issues to these providers as required.</description>
          <icon image48="images/redhat_48.png"></icon>
       </certification>
-      <certification id="org.jboss.tools.discovery.certification.earlyaccess" name="Early Access">
-          <description>
-TODO
-          </description>
-          <icon image48="images/redhat_48.png"></icon>
-      </certification>
       
       <!-- use connectorCategory relevance value to sort from largest (80) to smallest (20) -->
 
@@ -161,22 +155,6 @@ TODO
             license="EPL (Free)"
             name="JBoss Tools LiveReload"
             provider="JBoss by Red Hat"
-            siteUrl="${jboss.discovery.site.url:http://download.jboss.org/jbosstools/updates/development/luna/central/core/}">
-            <iu id="org.jboss.tools.livereload.feature"/>
-         <icon image32="images/jbosstools_icon32.png"/>
-         <overview url="http://www.jboss.org/tools"/>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="org.jboss.tools.central.discovery.a.web"
-            groupId="org.jboss.tools.central.discovery.a.web.core"
-            description="Save html, css + javascript and see changes immediately in your browser"
-            id="org.jboss.tools.livereload"
-            kind="task"
-            license="EPL (Free)"
-            name="JBoss Tools LiveReload"
-            provider="JBoss by Red Hat"
-            certificationId="org.jboss.tools.discovery.certification.earlyaccess"
             siteUrl="${jboss.discovery.site.url:file:/home/mistria/git/jbosstools-livereload/site/target/repository/}">
             <iu id="org.jboss.tools.livereload.feature"/>
          <icon image32="images/jbosstools_icon32.png"/>
