@@ -29,15 +29,8 @@ but this is not guaranteed.</description>
             provider="JBoss by Red Hat"
             siteUrl="${jboss.discovery.earlyaccess.site.url:https://devstudio.redhat.com/updates/8.0-development/central/earlyaccess/}">
             <iu id="angularjs-eclipse-feature"/>
-            <iu id="tern-feature"/>
-            <iu id="tern-jsdt-feature"/>
-            <iu id="tern-server-nodejs-feature"/>
-            <iu id="tern.eclipse.ide.tools.feature"/>
-            <iu id="tern.eclipse.ide.server.nodejs.embed"/>
-            <iu id="org.jboss.tools.jst.jsdt.feature" />
             <iu id="org.jboss.tools.jst.angularjs.feature" />
-         <icon
-               image32="images/angularjs_32.png">
+         <icon image32="images/angularjs_32.png">
          </icon>
          <overview
                url="https://marketplace.eclipse.org/content/angularjs-eclipse">
